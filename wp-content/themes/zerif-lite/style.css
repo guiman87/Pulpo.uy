@@ -89,7 +89,7 @@ a img {
 	border: 0;
 }
 body {
-	font-family: 'Lato', sans-serif !important;
+	font-family: 'Roboto', sans-serif !important;
 	font-size: 14px;
 	color: #808080;
 	font-weight: normal;
@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 }
 h1,h2 {
-	font-family: 'Montserrat', 'sans-serif';
+	font-family: 'Roboto', 'sans-serif';
 	font-weight: 700;
 	line-height: 35px;
 }
@@ -1393,7 +1393,7 @@ object {
 	position: fixed;
 	width: 100%;
 	z-index: 1000;
-	min-height: 75px;
+	min-height: 90px;
 }
 #main-nav.fixed {
 	position: fixed !important;
@@ -2458,7 +2458,7 @@ width: -webkit-calc(100% / 4);
 .newsletter h3 {
 	font-size: 28px;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	margin-bottom: 8px;
 }

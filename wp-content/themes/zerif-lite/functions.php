@@ -250,7 +250,7 @@ function zerif_slug_fonts_url() {
     * supported by Lora, translate this to 'off'. Do not translate
     * into your own language.
     */
-    $lato = _x( 'on', 'Lato font: on or off', 'zerif-lite' );
+    $roboto = _x( 'on', 'Roboto font: on or off', 'zerif-lite' );
     $homemade = _x( 'on', 'Homemade font: on or off', 'zerif-lite' );
     /* Translators: If there are characters in your language that are not
     * supported by Open Sans, translate this to 'off'. Do not translate
@@ -258,12 +258,12 @@ function zerif_slug_fonts_url() {
     */
     $monserrat = _x( 'on', 'Monserrat font: on or off', 'zerif-lite' );
  
-    if ( 'off' !== $lato || 'off' !== $monserrat|| 'off' !== $homemade ) {
+    if ( 'off' !== $roboto || 'off' !== $monserrat|| 'off' !== $homemade ) {
         $font_families = array();
  
         
-        if ( 'off' !== $lato ) {
-            $font_families[] = 'Lato:300,400,700,400italic';
+        if ( 'off' !== $roboto ) {
+            $font_families[] = 'Roboto:300,400,700,400italic';
         }
  
         if ( 'off' !== $monserrat ) {
@@ -782,7 +782,7 @@ class zerif_ourfocus extends WP_Widget
 
 
 
-        <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+        <div class="col-lg-4 col-sm-4 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
 
 			<?php if( !empty($instance['image_uri']) ): ?>
             <div class="service-icon">
