@@ -160,7 +160,7 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
+	color: #333;
 	font-family: sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -422,7 +422,7 @@ thead th{
 	background: #E7AC44;
 }
 .dark-bg {
-	background: #404040;
+	background: #333;
 }
 .white-bg {
 	background:  #FFFFFF;
@@ -441,7 +441,7 @@ thead th{
 	color: #f7d861;
 }
 .dark-text {
-	color: #404040;
+	color: #333;
 }
 .white-text {
 	color: #FFFFFF;
@@ -467,7 +467,7 @@ thead th{
 	content: "";
 	width: 50%;
 	height: 2px;
-	background: #404040;
+	background: #333;
 	bottom: -9px;
 	left: 25%;
 }
@@ -853,7 +853,7 @@ a:active {
 	margin-bottom: 30px;*/
 }
 .widget .widget-title {
-	color: #404040;
+	color: #333;
 	text-transform: uppercase;
 	margin-bottom: 30px;
 	font-weight: bold;
@@ -948,7 +948,7 @@ a:active {
 	color:#808080;
 }
 .widget li a:hover {
-	color:#404040
+	color:#333
 }
  /*---------------------------------------
  **   10.0 Content                   -----
@@ -1402,15 +1402,18 @@ object {
 .navbar-inverse .navbar-nav >li {
 	display: inline;
 	margin-right: 20px;
-	margin-top: 20px;
+	margin-top: 28px;
 }
 .navbar-inverse .navbar-nav>li:last-child {
 	margin-right: 0 !important;
 }
 .navbar-inverse .navbar-nav>li>a {
-	color: #404040;
+	color: #000;
 	padding: 0;
 	line-height: 35px;
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 21px;
 }
 .navbar-inverse .main-navigation ul > li {
 	display: inline;
@@ -1421,7 +1424,7 @@ object {
 	margin-right: 0 !important;
 }
 .navbar-inverse .main-navigation > ul > li > a {
-	color: #404040;
+	color: #333;
 	padding: 0;
 	line-height: 35px;
 }
@@ -1447,7 +1450,7 @@ object {
 	padding:10px;
 }
 .navbar-inverse .navbar-nav ul.sub-menu li a {
-	color:#404040;
+	color:#333;
 }
 .navbar-inverse .navbar-nav ul.sub-menu li:hover > a {
 	color:#e96656;
@@ -1457,7 +1460,6 @@ object {
 }
 
 .navbar-brand {
-	height: 76px;
 	position: relative;
 	line-height: 45px;
 }
@@ -1550,7 +1552,7 @@ object {
 }
 #carousel-homepage-latestnews .carousel-inner .item .latestnews-title {
 	margin-bottom: 15px;
-	color: #404040;
+	color: #333;
 	position: relative;
 	display: inline-block;
 	text-transform: uppercase;
@@ -1562,7 +1564,7 @@ object {
 }
 #carousel-homepage-latestnews .carousel-inner .item .latestnews-title a {
 	text-transform: uppercase;
-	color: #404040;
+	color: #333;
 	font-weight: 700;
 	display: block;
 }
@@ -1625,9 +1627,10 @@ object {
 -----------------------------------------*/
 
 .focus {
-	padding-bottom: 100px;
+	padding-bottom: 20px;
 	overflow: hidden;
 	background: #FFFFFF;
+	padding-top: 20px;
 
 }
 .focus .row {
@@ -1684,7 +1687,7 @@ object {
 }
 .focus-box h5 {
 	margin-bottom: 15px;
-	color: #404040;
+	color: #333;
 	position: relative;
 	display: inline-block;
 	text-transform: uppercase;
@@ -1704,7 +1707,7 @@ object {
 }
 .other-focuses .section-footer-title {
 	padding: 0 15px;
-	color: #404040;
+	color: #333;
 	font-weight: bold;
 }
 .other-focus-list {
@@ -2120,7 +2123,7 @@ width: -webkit-calc(100% / 4);
 }
 .team-member h5 {
 	text-transform: uppercase;
-	color: #404040;
+	color: #333;
 	font-weight: 700;
 	position: relative;
 }
@@ -2180,7 +2183,7 @@ width: -webkit-calc(100% / 4);
 .features .feature h5 {
 	font-weight: bold;
 	line-height: 28px;
-	color: #404040;
+	color: #333;
 }
 .features .feature p {
 	font-size: 14px;
@@ -2266,13 +2269,13 @@ width: -webkit-calc(100% / 4);
 }
 .order {
 	background: #d8ccba;
-	color: #404040;
+	color: #333;
 }
 .package .order-now {
 	line-height: 45px;
 	max-width: 100%;
 	display: block;
-	background: #404040;
+	background: #333;
 	color: #FFF;
 	-webkit-transition: all 700ms;
 	transition: all 700ms;
@@ -2391,7 +2394,7 @@ width: -webkit-calc(100% / 4);
 	text-align: left;
 }
 .item-top-title h5 {
-	color: #404040;
+	color: #333;
 	font-weight: 700;
 }
 /* ITEM DETAILS */
@@ -2509,7 +2512,7 @@ width: -webkit-calc(100% / 4);
 }
 .feedback-box .client-info .client-name {
 	font-family: 'Homemade Apple', serif;
-	color: #404040;
+	color: #333;
 }
 .feedback-box .client-info .client-company {
 	font-size: 13px;
@@ -2728,7 +2731,7 @@ article .posted-on a:hover{
 .widget-title a{
 	font-size: 20px;
 	line-height: 22px;
-	color: #404040;
+	color: #333;
 }
 .entry-title a:hover{
 	color: #e96656;;
@@ -2854,7 +2857,7 @@ article .posted-on a:hover{
 }	
 .woocommerce .products .product h3 {
 	float:none;
-	color: #404040 !Important;
+	color: #333 !Important;
 }
 .woocommerce .added_to_cart, .woocommerce .button  {
 	display: inline-block !important;
@@ -2901,7 +2904,7 @@ article .posted-on a:hover{
 	margin-top: 13px !important;
 }
 .woocommerce .product-name a {
-	color:#404040 !important;
+	color:#333 !important;
 }
 .woocommerce .cart_totals tr.cart-subtotal th, .woocommerce .cart_totals tr.order-total th{
 	width:100% !important;
@@ -2929,6 +2932,21 @@ body.custom-background {
 	background-position: top center !important;
 	background-attachment: fixed !important;
 }
+
+@media (min-width: 768px) {
+#main-nav.shrink {
+  max-height: 45px;
+  min-height: 45px;
+}
+
+.navbar-brand {
+	height: 76px;
+	}
+
+.homeslider {
+margin-top: 0px;
+}
+}
 /*---------------------------------------
  **   Responsive            -----
 -----------------------------------------*/
@@ -2942,6 +2960,8 @@ body.custom-background {
 		margin-top: 10px;
 		padding-top: 15px;
 	}
+
+
 	.responsive-logo a {
 		float: none !important;
 	}
@@ -2952,7 +2972,6 @@ body.custom-background {
 	}
 	.responsive-nav li {
 		margin-bottom: 15px;
-		margin-top: 0 !important;
 	}
 
      /* HOME */
@@ -3011,6 +3030,7 @@ body.custom-background {
 
 @media (max-width: 992px) {
 
+
 	.purchase-now .red-btn{
 	    float: none;
 	}
@@ -3042,12 +3062,40 @@ body.custom-background {
 @media (max-width: 767px) {
 
 	/* HEADER */
+
+#main-nav .navbar-nav a {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  font-size: 15px;
+}
+
+#main-nav  .navbar-brand img {
+width: 56%;
+}
+
+#main-nav.shrink {
+  min-height: 45px;
+}
+
+.navbar-toggle {
+	margin-top: 10px;
+}
+
+#main-nav .navbar-brand  {
+	padding-top: 0px !important;
+  padding-bottom: 0px !important;
+
+}
+
+
 	.bs-navbar-collapse {
 		border: 0;
 	}
 	#main-nav {
+		min-height: 45px;
 		overflow: hidden;
 		margin-bottom:1px;
+
 	}
 	.navbar-inverse .navbar-nav {
 		padding-left: 10px;
@@ -3130,7 +3178,7 @@ body.custom-background {
 		padding-right: 0;
 	}
 	.navbar-inverse .navbar-nav > li > a:hover {
-		color: #404040 !important;
+		color: #333 !important;
 	}
 	.this-open > a {
 		color: #e96656 !important;
@@ -3206,6 +3254,9 @@ body.custom-background {
 		top: 0px;
 		right: 0px;
 	}
+
+}
+
 }
 @media (max-width: 480px) {
 
@@ -3279,4 +3330,56 @@ ca nu o sa mearga chestii in header pe homepage */
 
 .zerif-copyright-box {
 	width: 100%;
+}
+
+
+
+
+
+
+#main-nav.shrink .navbar-nav a {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  font-size: 15px;
+}
+
+#main-nav.shrink .navbar-brand img {
+width: 56%;
+
+}
+
+#main-nav.shrink .navbar-brand  {
+	padding-top: 0px !important;
+  padding-bottom: 0px !important;
+
+}
+
+.shrink .navbar-nav li {
+	margin-top: 5px !important;
+}
+
+.shrink .navbar-toggle {
+	margin-top: 10px;
+}
+
+
+.navbar {
+background: rgba(255, 255, 255, 0.48);
+}
+
+
+.wptuts-video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.wptuts-video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

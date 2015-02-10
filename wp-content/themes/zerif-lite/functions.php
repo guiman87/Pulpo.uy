@@ -263,7 +263,7 @@ function zerif_slug_fonts_url() {
  
         
         if ( 'off' !== $roboto ) {
-            $font_families[] = 'Roboto:300,400,700,400italic';
+            $font_families[] = 'Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100&subset=latin,latin-ext';
         }
  
         if ( 'off' !== $monserrat ) {
@@ -783,9 +783,11 @@ class zerif_ourfocus extends WP_Widget
 
 
         <div class="col-lg-4 col-sm-4 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+            
 
 			<?php if( !empty($instance['image_uri']) ): ?>
-            <div class="service-icon">
+            
+            <div class="service_icon">
 				
 				<?php if( !empty($instance['link']) ): ?>
 				
@@ -793,27 +795,28 @@ class zerif_ourfocus extends WP_Widget
 				
 				<?php else: ?>
 				
-					<i class="pixeden" style="background:url(<?php echo esc_url($instance['image_uri']); ?>) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON-->
+					<i  style="background:url(<?php echo esc_url($instance['image_uri']); ?>) no-repeat center;"></i> <!-- FOCUS ICON-->
 				
 				<?php endif; ?>
 
 
             </div>
-			<?php endif; ?>
 
-            <h5 class="red-border-bottom"><?php if( !empty($instance['title']) ): echo apply_filters('widget_title', $instance['title']); endif; ?></h5>
+			<?php endif; ?>
+            <div class="services_text">
+            <h5 class=""><?php if( !empty($instance['title']) ): echo apply_filters('widget_title', $instance['title']); endif; ?></h5>
             <!-- FOCUS HEADING -->
 
 
 			<?php 
 				if( !empty($instance['text']) ):
 				
-					echo '<p>';
-						echo apply_filters('widget_title', $instance['text']);
-					echo '</p>';
+	
+						echo $instance['text'];
+
 				endif;
 			?>	
-
+        </div>
         </div>
 
 
@@ -831,7 +834,7 @@ class zerif_ourfocus extends WP_Widget
 
         $instance = $old_instance;
 
-        $instance['text'] = strip_tags($new_instance['text']);
+        $instance['text'] = $new_instance['text'];
 
         $instance['title'] = strip_tags($new_instance['title']);
 		

@@ -1,1 +1,1 @@
-<?php		echo '<div class="homeslider">';		putRevSlider("homslider") ;		echo '</div>';		echo '<div class="clear"></div>';?>
+<?php		echo '<div class="clear"></div><div class="homeslider">';		putRevSlider("homslider") ;		echo '</div>';		echo '<div class="clear"></div>';?>

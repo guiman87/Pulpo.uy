@@ -310,3 +310,12 @@ jQuery(window).load(function() {
 		
 	}
 });	
+
+
+jQuery(window).scroll(function() {
+  if (jQuery(document).scrollTop() > 30) {
+    jQuery('#main-nav').addClass('shrink');
+  } else {
+    jQuery('#main-nav').removeClass('shrink');
+  }
+});
